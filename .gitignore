@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+MachineLearning/
+
+# Model files
+*.h5
+*.hdf5
+*.pb
+*.pkl
+*.joblib
+!tb_linear_model.pkl
+
+# Data directories (uncomment if you don't want to track data)
+# data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Streamlit
+.streamlit/
+!.streamlit/
+!.streamlit/config.toml
+
